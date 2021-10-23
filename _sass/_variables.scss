@@ -64,8 +64,7 @@ $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$warwick-color              : #552D62;
-$info-color                 : $warwick-color;
+$info-color                 : #52adc8;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -89,15 +88,14 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 $orcid-color                : #a6ce39;
-$warwick-color-primary      : #552D62;
-$warwick-color-secondary    : #886C91;
+
 
 /* links */
-$link-color                 : $warwick-color-primary;
+$link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
